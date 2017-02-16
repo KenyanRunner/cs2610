@@ -1,0 +1,69 @@
+h1{
+    border: ridge;
+    color:orange;
+}
+h2{
+    display: block;
+    color: green;
+}
+img{
+    display: inline;
+}
+.centered{
+    padding:3px;
+    text-align: center;
+    text-shadow: 1pt 1pt 1pt black;
+}
+p{
+    color:green;
+    font-family: fantasy;
+    font-size: 15pt;
+    font-weight: inherit;
+}
+img{
+    display: inline;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: solid;
+}
+tbody td{
+    border: medium solid black;
+}
+tbody th{
+    border: medium solid black;
+}
+tbody>tr:nth-child(even){
+    background-color: grey;
+    font-family: monospace;
+}
+tbody>tr:nth-child(odd){
+    background-color: white;
+    font-family: monospace;
+}
+tbody>tr:hover{
+    color:red;
+    background-color: purple;
+    font-weight: bolder;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    vertical-align: baseline;
+}
+span:hover{
+    vertical-align: baseline;
+    background-color:red;
+}
+body{
+    background: url(http://1.bp.blogspot.com/-Uzna2Ve1PbU/UVZWr3IsOrI/AAAAAAAAdnM/iWdnej-nm3E/s1600/Fractal+009.jpg), blue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    background-origin: content-box;
+}
